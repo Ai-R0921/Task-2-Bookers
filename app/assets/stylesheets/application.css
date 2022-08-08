@@ -41,12 +41,14 @@ thead {
     border-color: inherit;
 }
 
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
 th {
   padding-bottom: 5px;
-  display: table-cell;
-  vertical-align: inherit;
-  font-weight: bold;
-  text-align: -internal-center;
 
 }
 
@@ -56,10 +58,17 @@ table {
     border-spacing: 2px;
 }
 
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .text-success {
   color: green;
 
 }
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
